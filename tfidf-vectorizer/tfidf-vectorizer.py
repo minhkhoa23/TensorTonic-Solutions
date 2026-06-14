@@ -9,42 +9,6 @@ def tfidf_vectorizer(documents):
         doc.lower().split()
         for doc in documents
     ]
-
-    vocabulary = sorted(
-        set(
-            word
-            for tokens in tokenized_docs
-            for word in tokens
-        )
-    )
-
-    word_to_idx = {
-        word: i
-        for i, word in enumerate(vocabulary)
-    }
-
-    n_docs = len(documents)
-    n_words = len(vocabulary)
-
-    tfidf_matrix = np.zeros((n_docs, n_words))
-
-    df = Counter()
-
-    for tokens in tokenized_docs:
-        for word in set(tokens):
-            df[word] += 1
-
-    for i, tokens in enumerate(tokenized_docs):
-        tf = Counter(tokens)
-
-        for word, count in tf.items():
-            j = word_to_idx[word]
-
-            idf = math.log(n_docs / df[word])
-
-            tfidf_matrix[i, j] = count * idf
-
-    return tfidf_matrix, vocabulary
     """
     # Write code here
     tokenized_docs = [doc.lower().split() for doc in documents]
