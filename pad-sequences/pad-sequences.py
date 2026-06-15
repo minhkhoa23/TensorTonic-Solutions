@@ -8,8 +8,7 @@ def pad_sequences(seqs, pad_value=0, max_len=None):
     """
     # Your code here
     N = len(seqs)
-
-    if max_len is None:
+    if max_len == None:
         L = max(len(seq) for seq in seqs) if seqs else 0
     else:
         L = max_len
