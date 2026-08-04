@@ -20,12 +20,14 @@ $$
 This formula has two cases:
 
 **When y = 1 (positive class):**
+
 $$
 L = -\log(\hat{y})
 $$
 The loss is the negative log of the predicted probability for the positive class.
 
 **When y = 0 (negative class):**
+
 $$
 L = -\log(1-\hat{y})
 $$
