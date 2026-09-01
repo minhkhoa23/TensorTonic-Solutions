@@ -46,6 +46,7 @@ Same as max pooling:
 $$
 H_{out} = \left\lfloor \frac{H}{p} \right\rfloor
 $$
+
 $$
 W_{out} = \left\lfloor \frac{W}{p} \right\rfloor
 $$

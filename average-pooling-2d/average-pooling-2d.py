@@ -1,7 +1,7 @@
 import numpy as np
-def average_pooling_2d(X, pool_size):
+def average_pooling_2d(X: list, pool_size: int) -> list:
     """
-    Apply 2D average pooling with non-overlapping windows.
+    Returns non-overlapping average-pooled windows.
     """
     # Write code here
     X = np.asarray(X)
