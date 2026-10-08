@@ -1,10 +1,9 @@
 #include <cuda_runtime.h>
 
 __global__ void vector_add(const float* A, const float* B, float* C, int N) {
-    // Write code here
+    // Store N element-wise results in C; this kernel returns no value.
     int i = blockIdx.x * blockDim.x + threadIdx.x;
-
-    if (i < N){
+    if(i < N){
         C[i] = A[i] + B[i];
     }
 }
