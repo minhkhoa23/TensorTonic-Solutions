@@ -166,6 +166,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Target Encoding | Encode each categorical value with the mean target observed for its category while preserving row order. | https://www.tensortonic.com/problems/target-encoding |
 | One-Step TD Value Update | Perform one temporal-difference value update from reward, discount, next-state value, and learning rate. | https://www.tensortonic.com/problems/td-value-update |
 | Implement TF-IDF Vectorizer | Build TF-IDF document vectors from token counts and inverse document frequency across a text corpus. | https://www.tensortonic.com/problems/tfidf-vectorizer |
+| Pick a Threshold Under a Precision Constraint | Pick the decision threshold with the highest recall whose precision meets a required floor, or report that none does. | https://www.tensortonic.com/problems/threshold-under-precision-constraint |
 | Detect Train-Serving Skew | Detect train-serving skew by comparing offline and online feature values under configured tolerances. | https://www.tensortonic.com/problems/train-serving-skew |
 | Implement Triplet Loss | Compute triplet loss from anchor, positive, and negative embeddings using distances and a margin. | https://www.tensortonic.com/problems/triplet-loss |
 | User-Based CF Prediction | Predict a user-item rating from similar users' ratings with neighborhood weighting and mean adjustment. | https://www.tensortonic.com/problems/user-based-cf-prediction |
