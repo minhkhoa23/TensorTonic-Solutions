@@ -92,6 +92,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Implement KL Divergence | Compute Kullback-Leibler divergence between discrete distributions in NumPy, with safe handling of zero probabilities and tests in the browser. | https://www.tensortonic.com/problems/kl-divergence |
 | KNN Distance + Neighbor Lookup | Find the nearest neighbors of a query point by computing and ordering Euclidean distances to training samples. | https://www.tensortonic.com/problems/knn-distance |
 | L1 Normalization | Implement CUDA L1 vector normalization by reducing absolute values and dividing each element by the resulting norm. | https://www.tensortonic.com/problems/l1-normalize |
+| L2 Normalization | Implement CUDA L2 vector normalization by reducing squared values and dividing each element by the resulting norm. | https://www.tensortonic.com/problems/l2-normalize |
 | Lag Features | Generate lagged time-series features for specified offsets with defined padding for unavailable history. | https://www.tensortonic.com/problems/lag-features |
 | Layer Normalization | Implement fused row-wise LayerNorm in CUDA with shared-memory mean and variance reduction, affine scale, and bias. | https://www.tensortonic.com/problems/layer-norm |
 | L-BFGS Two-Loop Recursion | Implement the L-BFGS two-loop recursion to transform a gradient using stored correction-vector history. | https://www.tensortonic.com/problems/lbfgs-two-loop |
