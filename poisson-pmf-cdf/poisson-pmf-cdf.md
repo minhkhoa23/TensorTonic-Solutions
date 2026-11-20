@@ -162,16 +162,19 @@ There is about a 43% chance of 3 or fewer events.
 ## Using CDF for Range Probabilities
 
 **$P(X > k)$:**
+
 $$
 P(X > k) = 1 - F(k) = 1 - P(X \leq k)
 $$
 
 **$P(X \geq k)$:**
+
 $$
 P(X \geq k) = 1 - F(k-1) = 1 - P(X \leq k-1)
 $$
 
 **$P(a \leq X \leq b)$:**
+
 $$
 P(a \leq X \leq b) = F(b) - F(a-1)
 $$
@@ -193,6 +196,7 @@ $$
 The mean and variance are equal. This property helps identify Poisson-distributed data.
 
 **Standard deviation:**
+
 $$
 \sigma = \sqrt{\lambda}
 $$
@@ -335,6 +339,7 @@ The MLE is simply the sample mean.
 For Poisson data, mean $\approx$ variance.
 
 Compute the dispersion index:
+
 $$
 D = \frac{\text{Var}(X)}{\bar{X}}
 $$
